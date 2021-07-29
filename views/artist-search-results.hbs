@@ -1,0 +1,11 @@
+<button>View Albums</button>
+<ul>
+{{#each itemsReceivedFromSpotify}}
+
+    <li>
+        {{this.name}}
+        {{this.images.[0].url}}
+        </li>
+
+{{/each}}
+</ul>
